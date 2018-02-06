@@ -1,0 +1,13 @@
+:host{
+
+}
+
+#airport{
+  background-color: aquamarine;
+  display: block;
+}
+
+#runway{
+  background-color : lightblue;
+  display: block;
+}

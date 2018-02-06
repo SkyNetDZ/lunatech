@@ -1,0 +1,11 @@
+<div >
+  <p>Query Option will ask the user for the country name or code and print the airports & runways at each airport. The input can be country code or country name. For bonus points make the test partial/fuzzy. e.g. entering zimb will result in Zimbabwe :)</p>
+
+  <p>Data Request</p>
+  <div>
+     <label>Country name :</label>
+     <input type="text" (keyup)="filter(input.value)" #input/>
+  </div>
+  <p>Results </p>
+     <app-list [countries]="filtredCountries"></app-list>
+</div>

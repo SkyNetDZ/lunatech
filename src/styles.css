@@ -1,0 +1,69 @@
+/* Add application styles & imports to this file! */
+:host {
+  height: 100%;
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+#toolbar {
+  background-color: greenyellow;
+  border: 1px solid green;
+  height : 50px;
+  box-shadow:3px 3px 5px 6px #ccc; 
+  z-index : 999999;
+}
+
+#body {
+  height : 750px;
+  flex: 1;
+  z-index : 50;
+  justify-content : center;
+  flex-direction: column;
+  /*ckground-clip: content-box;
+  background-repeat:no-repeat;
+  background-position:top left;
+  background-image: url(http://www.slate.fr/sites/default/files/styles/1090x/public/c_leonardo_finotti_shenzhen_70501_20x30_131126-033d.jpg);
+  opacity : 0.5;*/
+}
+
+
+#menu{
+  align-self: flex-start;
+  padding: 10px;
+  border: 1px solid gray;
+  margin-top : 5px;
+}
+
+a{
+  background-color: gray;
+  padding : 5px;
+  border: 1px solid gray;
+  margin:5px;
+  border-radius: 8px;
+}
+
+#content{
+  background-color:  #ccc;
+  padding : 20px;
+  margin-top : 5px;
+  margin-bottom: 5px;
+}
+
+#footer {
+  height: 30px;
+  width: 100%;
+  background-color: gray;
+  text-align: center;
+  z-index : 0;
+}
+
+button{
+   width  : 100px;
+   height :  50px;
+   background-color : greenyellow;
+   border-radius: 10px;
+}
